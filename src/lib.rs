@@ -7,3 +7,6 @@
     missing_doc_code_examples,
     missing_docs,
 )]
+
+/// The parser signature.
+pub type ParserFn<'input, Input, Output> = fn(&'input Input) -> Result<(&'input Input, Output), ()>;

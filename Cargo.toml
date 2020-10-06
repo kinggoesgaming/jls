@@ -6,3 +6,6 @@ description = "Java Language Specification compliant parser, written in Rust"
 edition = "2018"
 name = "jsl"
 version = "0.0.0"
+
+[dependencies.nom]
+version = "5"
