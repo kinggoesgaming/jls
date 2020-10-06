@@ -9,3 +9,6 @@ version = "0.0.0"
 
 [dependencies.nom]
 version = "5"
+
+[features]
+std = []
